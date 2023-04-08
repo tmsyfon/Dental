@@ -5,20 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----- fontawesome ----->
+    <script src="https://kit.fontawesome.com/a935639c09.js" crossorigin="anonymous"></script>
+
     <title>LOGIN</title>
 
 </head>
 
+<!----- Style ----->
+<style>
+    .img_nav {
+        width: 190px;
+    }
+</style>
+
 <body>
 
-    <nav>
-        <a href>LOGO</a>
-        <a href>SHOP</a>
-        <a href>SERCH</a>
-        <a href>CART</a>
-        <a href>USER</a>
-    </nav>
+    <!----- Navbar ----->
 
+    <div class="navbar">
+        <a href><img class="img_nav" src="/img/logo.jpg"></a>
+        <a href class="shop_nav">SHOP</a>
+        <div class="search_nav">
+            <form>
+                <input type="text" placeholder="Search">
+                <button><i class="fa-regular fa-magnifying-glass" style="color: #343434;"></i></button>
+            </form>
+        </div>
+        <a href><i class="fa-solid fa-cart-shopping fa-2x" style="color: #343434;"></i></a>
+        <a href>USER</a>
+    </div>
 </body>
 
 </html>
