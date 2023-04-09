@@ -6,23 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--framework tailwind-->
+    <!----- framework tailwind ----->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!----- fontawesome ----->
     <script src="https://kit.fontawesome.com/a935639c09.js" crossorigin="anonymous"></script>
 
+    <!----- Kanit Font ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
+
     <title>LOGIN</title>
 
 </head>
-
-<!----- Style ----->
-<style>
-    .search_nav{
-        padding-top: 2px;
-        border-radius: 20px;
-    }
-</style>
 
 <body>
 
@@ -31,12 +33,13 @@
     <div class="navbar flex flex-row justify-center text-center items-center">
         <a href><img class="img_nav w-40" src="/img/logo.jpg"></a>
         <a href class="shop_nav" style="margin-right: 20px;">SHOP</a>
-        
+
         <!----- Search ----->
-        <div class="search_nav mx-5 border border-solid border-black py-0.5 rounded-2xl">
+        <div class="search_nav mx-5 border border-solid border-black py-0.5 rounded-full">
             <form>
                 <input type="text" style="border: transparent;" placeholder="Search">
-                <button style="border: transparent;"><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #343434;"></i></button>
+                <button style="border: transparent;"><i class="fa-solid fa-magnifying-glass fa-2x"
+                        style="color: #343434;"></i></button>
             </form>
         </div>
 
@@ -45,4 +48,5 @@
     </div>
 </body>
 <!-- สู้ๆคับ -->
+
 </html>
