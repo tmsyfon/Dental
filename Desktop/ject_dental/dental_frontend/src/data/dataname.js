@@ -64,8 +64,8 @@ const name = [
     },
     {
         history_id:10,
-        num : 9,
-        name :'naphatsorn Kongngam',
+        num : 10,
+        name :'naphatsorn Kongngam1111',
         date :'02/25/24',
         time :'08:24:43'
     },
