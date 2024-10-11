@@ -50,6 +50,12 @@ export default {
             password:'',
             correct_name:'fah',
             correct_password:'1234'
+        },
+        {
+            username: '',
+            password:'',
+            correct_name:'fon',
+            correct_password:'5678'
         }
     },
     // คำสังแสดงฟั่งก์ชั่นในการทำงาน
